@@ -13,6 +13,7 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+artifact/
 .eggs/
 lib/
 lib64/
@@ -128,7 +129,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.artifact
 .env
 .venv
 env/
