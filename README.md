@@ -1,6 +1,61 @@
-# Prediction of Math Scores (End-to-end Project)
+🎓 Student Math Score Prediction
+This project predicts student math scores based on various parameters using machine learning regression and classification models. Additionally, it features a Flask web application to interactively predict and classify math scores.
 
-Performed prediction of Mathematics Test Scores based on Gender, Race/Ethnicity, Parental Level of Education, Type of Lunch, Status of Test Preparation Course, Reading Score and Writing Score.
+📌 Project Overview
+Use machine learning models to predict math scores.
 
-A series of regression and classification models like Decision Tree, Random Forest, Gradient Boosting, Linear Regression, KNN, XGB Regressor, Cat Boosting Regressor and Ada Boost Regressor models along with the hyperparameter tuning of each of these models was done to find out the best R2-score among all.
+Classify student performance into categories.
 
+Deploy a Flask app for easy user interaction.
+
+📂 Dataset
+Includes features like gender, parental education, test preparation, lunch type, and scores in math, reading, and writing.
+
+🧠 Machine Learning Models
+Regression: Linear Regression, Decision Tree Regressor, Random Forest Regressor
+
+Classification: Logistic Regression, Decision Tree Classifier, Random Forest Classifier
+
+⚙️ Installation & Setup
+
+Clone the repo:
+```
+git clone https://github.com/yourusername/math-score-prediction.git
+cd math-score-prediction
+Create and activate a virtual environment:
+```
+```
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+🚀 Running the Flask App
+Start the Flask web app by running:
+```
+python app.py
+```
+By default, the app will be accessible at http://127.0.0.1:5000.
+
+Features
+Input student parameters via web form.
+
+Predict the math score using regression models.
+
+Classify student performance into categories (e.g., low, medium, high).
+
+View prediction results instantly on the web interface.
+
+🧪 Usage
+Open the browser and go to the URL above.
+
+Fill in the required student information fields.
+
+Submit to get the predicted math score and classification.
+
+📊 Evaluation Metric - R2 Score
