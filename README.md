@@ -1,22 +1,22 @@
-# 🎓 Student Math Score Prediction
+# Student Math Score Prediction
 This project predicts student math scores based on various parameters using machine learning regression and classification models. Additionally, it features a Flask web application to interactively predict and classify math scores.
 
-## 📌 Project Overview
+## Project Overview
 Use machine learning models to predict math scores.
 
 Classify student performance into categories.
 
 Deploy a Flask app for easy user interaction.
 
-## 📂 Dataset
+## Dataset
 Includes features like gender, parental education, test preparation, lunch type, and scores in math, reading, and writing.
 
-## 🧠 Machine Learning Models
+## Machine Learning Models
 Regression: Linear Regression, Decision Tree Regressor, Random Forest Regressor
 
 Classification: Logistic Regression, Decision Tree Classifier, Random Forest Classifier
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 Clone the repo:
 ```
@@ -35,7 +35,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## 🚀 Running the Flask App
+## Running the Flask App
 Start the Flask web app by running:
 ```
 python app.py
@@ -51,11 +51,11 @@ Classify student performance into categories (e.g., low, medium, high).
 
 View prediction results instantly on the web interface.
 
-## 🧪 Usage
+## Usage
 Open the browser and go to the URL above.
 
 Fill in the required student information fields.
 
 Submit to get the predicted math score and classification.
 
-## 📊 Evaluation Metric - R2 Score
+## Evaluation Metric - R2 Score
